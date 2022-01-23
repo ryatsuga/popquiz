@@ -1,4 +1,4 @@
-![alt text](https://github.com/ryatsuga/popquiz/assets/images/logo.png?raw=true)
+![alt text](https://github.com/ryatsuga/popquiz/blob/main/assets/images/logo.png)
 
 # POP Quiz Project
 
