@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:popquiz/modules/about/about_page.dart';
-import 'package:popquiz/modules/historic/historic_page.dart';
+import 'package:popquiz/modules/history/history_page.dart';
 import 'package:popquiz/modules/home/home_controller.dart';
 import 'package:popquiz/shared/themes/app_colors.dart';
 import 'package:popquiz/shared/themes/app_text_styles.dart';
@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final controller = HomeController();
-  final pages = [HistoricPage(), AboutPage()];
+  final pages = [HistoryPage(), AboutPage()];
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +77,9 @@ class _HomePageState extends State<HomePage> {
                 : AppColors.gray,
           ),
           GestureDetector(
-            onTap: () {},
+            onTap: () {
+              Navigator.pushNamed(context, '/quiz');
+            },
             child: Container(
               width: 56,
               height: 56,

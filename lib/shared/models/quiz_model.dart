@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:popquiz/shared/models/question_model.dart';
 
 class QuizModel {
@@ -11,7 +10,10 @@ class QuizModel {
 
   factory QuizModel.fromMap(Map<String, dynamic> map) {
     return QuizModel(
-        id: map['nome'], title: map['titulo'], questions: map['questoes']);
+        id: map['id'],
+        title: map['titulo'],
+        questions: List<QuestionModel>.from(
+            map['questoes'].map((x) => QuestionModel.fromMap(x))));
   }
 
   factory QuizModel.fromJson(String json) =>
@@ -20,7 +22,7 @@ class QuizModel {
   Map<String, dynamic> toMap() => {
         "id": id,
         "titulo": title,
-        "questoes": questions,
+        "questoes": List<dynamic>.from(questions.map((x) => x.toMap())),
       };
 
   String toJSON() => jsonEncode((toMap()));

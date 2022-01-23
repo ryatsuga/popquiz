@@ -73,6 +73,12 @@ class TextStyles {
     fontWeight: FontWeight.w700,
     color: AppColors.gray,
   );
+  static final buttonBoldDanger = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w700,
+    color: Colors.redAccent,
+  );
+
   static final buttonBoldBackground = GoogleFonts.inter(
     fontSize: 15,
     fontWeight: FontWeight.w700,

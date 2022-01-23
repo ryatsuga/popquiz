@@ -25,17 +25,17 @@ class _LandingPageState extends State<LandingPage> {
           child: Stack(children: [
             Container(
               width: size.width,
-              height: size.height * 0.36,
+              height: size.height * 0.40,
               color: AppColors.primary,
             ),
             Positioned(
               child: Image.asset(
                 AppImages.logoInCircleWhite,
-                height: 300,
+                height: 280,
               ),
               left: 0,
               right: 0,
-              top: 100,
+              top: 130,
             ),
             Positioned(
               bottom: size.height * 0.10,
@@ -45,7 +45,7 @@ class _LandingPageState extends State<LandingPage> {
                 children: [
                   Padding(
                     padding:
-                        const EdgeInsets.only(top: 25, left: 40, right: 40),
+                        const EdgeInsets.only(top: 30, left: 40, right: 40),
                     child: Text(
                       "Tá pronto para responder os quizzes mais pops do momento?",
                       style: TextStyles.titleHome,
