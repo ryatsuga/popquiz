@@ -24,4 +24,9 @@ Mock HTTP:
 - 2 days coding the project
 
 ## Screenshots
-<img src="/ryatsuga/popquiz/raw/main/graphic/pic1.png" alt="" style="max-width: 300px;">
+![alt text](./graphic/pic1.png)
+![alt text](./graphic/pic2.png)
+![alt text](./graphic/pic3.png)
+![alt text](./graphic/pic4.png)
+![alt text](./graphic/pic5.png)
+
