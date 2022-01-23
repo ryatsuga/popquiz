@@ -1,6 +1,6 @@
-# popquiz
+# POP Quiz Project
 
-A new Flutter project.
+App de quiz construído em Flutter para ser submetido ao desafio da Checkmob.
 
 ## Getting Started
 
