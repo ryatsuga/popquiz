@@ -2,7 +2,7 @@
 
 # POP Quiz Project
 
-Quiz App builded with Flutter for be submited tto Checkmob's test.
+Quiz App builded with Flutter for be submited to Checkmob's test.
 
 ## Getting Started
 
