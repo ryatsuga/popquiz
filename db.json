@@ -1,0 +1,28 @@
+{
+         "questionario":{
+            "id":1,
+            "titulo":"Minhas Preferências",
+            "questoes":[
+               {
+                  "id":1,
+                  "titulo":"Filme favorito",
+                  "descricao":"Qual é o filme que você mais gostou até hoje?"
+               },
+               {
+                  "id":2,
+                  "titulo":"Livro favorito",
+                  "descricao":"Qual é o livro que você mais gostou até hoje?"
+               },
+               {
+                  "id":3,
+                  "titulo":"Banda/Cantor favorito",
+                  "descricao":"Qual é o cantor ou banda que você mais curte?"
+               },
+               {
+                  "id":4,
+                  "titulo":"Gênero musical favorito",
+                  "descricao":"Qual é o gênero musical que você mais curte?"
+               }
+            ]
+         }
+}
