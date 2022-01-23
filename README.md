@@ -24,4 +24,4 @@ Mock HTTP:
 - 2 days coding the project
 
 ## Screenshots
-![](./graphic/pic1.png=x400)
+![](./graphic/pic1.png){:height="360px"}
