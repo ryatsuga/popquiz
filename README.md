@@ -22,3 +22,6 @@ Mock HTTP:
 
 - 2 days studying Flutter (First time coding with Flutter/Dart)
 - 2 days coding the project
+
+## Screenshots
+![alt text](https://github.com/ryatsuga/popquiz/blob/main/graphic/pic1.png)
