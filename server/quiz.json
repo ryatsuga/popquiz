@@ -1,6 +1,4 @@
 {
-   "quiz":[
-      {
          "questionario":{
             "id":1,
             "titulo":"Minhas Preferências",
@@ -27,6 +25,4 @@
                }
             ]
          }
-      }
-   ]
 }
